@@ -1,12 +1,12 @@
- ==========================================
- Date 2022-10-02
+
+ Tarih 2022-10-02
  Otomatik Isitme Tarama Testi version 0.1
  Soner Türüdü
  sonerturudu.com
  github/SonerTrd
  dBSPLab
  PhD Student - UMCG
- ==========================================
+
 
  Test hakkinda bilgilendirme
  1- Oncelikle testi calistirdiktan sonra katilimci isminin girilmesi isteniyor
@@ -25,10 +25,10 @@
  9- Oncelikle Sonuclar klasorunuz yoksa, yazilim kendi kendine olusturuyor. Olusturduktan sonra Sonuclar klasorunde test sonuclarina ait kulak yonu, frekans, dB, Tekrar, Secim, Yanit Suresi parametrelerini iceren txt dosyasi ile isitme sonucu (odyogram) png olarak eklenmis oluyor.
  Ayrica Sonuclar klasorunun disina da txt bilgileri json dosyasi olarak kaydediliyor.
  Notlar: 
- **Test sirasinda deneme sesine iptal dersek asagida bize Testi iptal etmek isteyip istemedigimiz sorulacak. 
+ *Test sirasinda deneme sesine iptal dersek asagida bize Testi iptal etmek isteyip istemedigimiz sorulacak. 
  Burada Evet yazarak testi iptal edebilirsiniz.
  Bazen yanlislikla testten cikilabiliyor. Bunun onune gecmek icin 'Evet' yazilmasini istedim. Ancak teste cabuk devam edebilmek icin de sadece H yazarak teste devam edebilirsiniz.
- ***Testi iptal etmedikten sonra ayni esige dondugunuzde, daha onceki staircase sifirlanmis oluyor. Mesela 250 Hz'de 2 adet evet yaniti verdiniz ve daha sonra yanlislikla testi iptal etmek istediniz. Fakat H diyerek teste geri dondunuz. Teste geri dondukten sonra staircase metodu sifirlanarak tekrar -5ten uyaran gonderimine basliyor.
+ *Testi iptal etmedikten sonra ayni esige dondugunuzde, daha onceki staircase sifirlanmis oluyor. Mesela 250 Hz'de 2 adet evet yaniti verdiniz ve daha sonra yanlislikla testi iptal etmek istediniz. Fakat H diyerek teste geri dondunuz. Teste geri dondukten sonra staircase metodu sifirlanarak tekrar -5ten uyaran gonderimine basliyor.
 
  Test icerisindeki kodlara dair bazi notlar
  Tic ile mevcut zamani kaydederiz, toc ile gecen sureyi hesaplariz
@@ -38,4 +38,4 @@
  flaglari debug test icin kullaniyoruz o yuzden kullanimini ogrenmek degerli 
  input ile kullanicidan bir girdi istiyoruz
  length ise mesela frekans_listesi = [0.25 0.5] ise length 2 oluyor. 2 farkli deger aldigi icin. Eger 0.25 0.5 1 yapsaydik length 3 olacakti.
- ==========================================
+
