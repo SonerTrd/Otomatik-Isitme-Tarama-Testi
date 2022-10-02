@@ -1,6 +1,3 @@
------
-Tarih 2022-10-02
------
 Otomatik Isitme Tarama Testi version 0.1
 -----
 Soner Türüdü / PhD Student - UMCG / dBSPLab
