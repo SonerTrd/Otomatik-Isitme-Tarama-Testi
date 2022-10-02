@@ -7,6 +7,7 @@
  dBSPLab
  PhD Student - UMCG
  ==========================================
+
  Test hakkinda bilgilendirme
  1- Oncelikle testi calistirdiktan sonra katilimci isminin girilmesi isteniyor
  2- Katilimci ismi girildikten sonra test sirasiyla 250 Hz'den baslayip 8000 Hz'e kadar devam ediyor. Bu kismi kod satirindan degistirebilirsiniz. degerleri kHz olarak yazmayi unutmayin.
@@ -28,4 +29,13 @@
  Burada Evet yazarak testi iptal edebilirsiniz.
  Bazen yanlislikla testten cikilabiliyor. Bunun onune gecmek icin 'Evet' yazilmasini istedim. Ancak teste cabuk devam edebilmek icin de sadece H yazarak teste devam edebilirsiniz.
  ***Testi iptal etmedikten sonra ayni esige dondugunuzde, daha onceki staircase sifirlanmis oluyor. Mesela 250 Hz'de 2 adet evet yaniti verdiniz ve daha sonra yanlislikla testi iptal etmek istediniz. Fakat H diyerek teste geri dondunuz. Teste geri dondukten sonra staircase metodu sifirlanarak tekrar -5ten uyaran gonderimine basliyor.
+
+ Test icerisindeki kodlara dair bazi notlar
+ Tic ile mevcut zamani kaydederiz, toc ile gecen sureyi hesaplariz
+ Questdlg, sorular icin diyalog kutusu acar
+ Strcmpi(a1,a2) kodunda a1 ile a2yi harflerin yazimi bakimindan karsilastiririz
+ Isempty ile degiskene atanan deger bos mu degil mi karar veririz. Bos ise 1, degil ise 0 degeri alir. ~isempty ise tersidir
+ flaglari debug test icin kullaniyoruz o yuzden kullanimini ogrenmek degerli 
+ input ile kullanicidan bir girdi istiyoruz
+ length ise mesela frekans_listesi = [0.25 0.5] ise length 2 oluyor. 2 farkli deger aldigi icin. Eger 0.25 0.5 1 yapsaydik length 3 olacakti.
  ==========================================
